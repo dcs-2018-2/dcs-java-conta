@@ -1,4 +1,4 @@
 package br.pro.ramon.dcs.java.conta;
 
-public class SaldoInsuficienteException extends Exception {
+public class SaldoInsuficienteException extends RuntimeException {
 }
