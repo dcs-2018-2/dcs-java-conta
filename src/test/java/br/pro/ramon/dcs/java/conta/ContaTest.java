@@ -44,7 +44,7 @@ public class ContaTest {
     }
 
     @Test(expected = SaldoInsuficienteException.class)
-    public void testErroQuandoSaldoInfuficienteParaSaque() {
+    public void testErroQuandoSaldoInsuficienteParaSaque() {
         ContaCorrente conta = new ContaCorrente();
         conta.deposita(1000.00);
         conta.saque(1000.01);
